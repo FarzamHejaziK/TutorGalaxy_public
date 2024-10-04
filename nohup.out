@@ -1,0 +1,162 @@
+ * Serving Flask app 'New_for_test_JasonEPwithUser'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://172.31.13.242:8000
+[33mPress CTRL+C to quit[0m
+99.73.90.135 - - [27/Dec/2023 20:27:38] "OPTIONS /api/v1/get_response_stream HTTP/1.1" 200 -
+99.73.90.135 - - [27/Dec/2023 20:27:42] "POST /api/v1/get_response_stream HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:55] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:55] "GET /api/v1/user_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:56] "OPTIONS /api/v1/user_profile HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:56] "OPTIONS /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:56] "OPTIONS /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:57] "GET /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:57] "GET /api/v1/user_profile HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:32:58] "POST /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:29] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:29] "GET /api/v1/user_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:30] "OPTIONS /api/v1/user_profile HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:30] "OPTIONS /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:30] "OPTIONS /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:31] "GET /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:31] "POST /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:33:31] "GET /api/v1/user_profile HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:47] "OPTIONS /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:47] "OPTIONS /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:47] "GET /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:48] "POST /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:56] "OPTIONS /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:56] "OPTIONS /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:57] "GET /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:51:57] "POST /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:55:03] "OPTIONS /api/v1/get_response_stream HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 20:55:07] "POST /api/v1/get_response_stream HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:39] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:40] "GET /api/v1/user_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:40] "OPTIONS /api/v1/user_profile HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:40] "OPTIONS /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:40] "OPTIONS /api/v1/chat_history HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:41] "GET /api/v1/buddy_details HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:42] "GET /api/v1/user_profile HTTP/1.1" 200 -
+39.34.148.200 - - [27/Dec/2023 21:00:42] "POST /api/v1/chat_history HTTP/1.1" 200 -
+162.216.150.89 - - [27/Dec/2023 21:51:08] code 400, message Bad request version ('À\x13À')
+162.216.150.89 - - [27/Dec/2023 21:51:08] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Á.U±\x83M\x92c\x11\x8cÈê\x06\x8e*Æ\x1d¸«\\\x03\\(\x87×Ç!À\x1ciG5 #¬¢¥Î$¦£'óõ`©Q6\x87-Â\x9c\x14RCß\x95Þ\x8e\x1f£\x12$Ò\x90\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+162.216.150.89 - - [27/Dec/2023 21:51:08] code 400, message Bad request version ('À(À$À\x14À')
+162.216.150.89 - - [27/Dec/2023 21:51:08] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03¢z=õH]QÅ°7íW\x11m6,\x1b½ÈÇ\x15÷'XyC=\x1fw\x88x!\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+51.158.186.242 - - [27/Dec/2023 22:07:52] "OPTIONS /api/v1/chat_history HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:07:52] "OPTIONS /api/v1/buddy_details HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:08:20] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:08:35] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:08:46] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:09:19] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:09:46] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+51.158.186.242 - - [27/Dec/2023 22:10:02] "OPTIONS /api/v1/user_details HTTP/1.1" 200 -
+167.248.133.187 - - [27/Dec/2023 22:48:11] "GET / HTTP/1.1" 200 -
+167.248.133.187 - - [27/Dec/2023 22:48:14] "GET / HTTP/1.1" 200 -
+167.248.133.187 - - [27/Dec/2023 22:48:15] code 505, message Invalid HTTP version (2.0)
+167.248.133.187 - - [27/Dec/2023 22:48:15] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.187 - - [27/Dec/2023 22:48:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:13:39] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:13:39] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:13:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:13:39] "GET / HTTP/1.1" 200 -
+99.73.90.135 - - [28/Dec/2023 00:25:57] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:25:57] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:25:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+99.73.90.135 - - [28/Dec/2023 00:25:58] "GET / HTTP/1.1" 200 -
+206.189.208.37 - - [28/Dec/2023 00:34:10] code 400, message Bad request version ('À\x14À')
+206.189.208.37 - - [28/Dec/2023 00:34:10] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03×\x1bïE\x85«Ç¾\x16°zýeí] \x91¼ß¥\x9b\x19e³7¼§\x19\x92{$E\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+206.189.208.37 - - [28/Dec/2023 00:34:10] code 400, message Bad request version ('À\x14À')
+206.189.208.37 - - [28/Dec/2023 00:34:10] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ðíD\x8a\x0eì¢,\\\x8bèÖ¨V\x9b \x0c\x00IB¢zþ¥{\x87,uqï¥q\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+206.189.208.37 - - [28/Dec/2023 00:34:11] "GET / HTTP/1.1" 200 -
+206.189.208.37 - - [28/Dec/2023 00:34:11] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x0e;«¢ü\x8c\x16Ì\x84²\x87\x9fâÜ='\x03\x9e¦©Gu.O'AëAXjó]\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+206.189.208.37 - - [28/Dec/2023 00:34:11] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x0e;«¢ü\x8c\x16Ì\x84²\x87\x9fâÜ='\x03\x9e¦©Gu.O'AëAXjó]\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+167.248.133.124 - - [28/Dec/2023 04:57:40] "GET / HTTP/1.1" 200 -
+167.248.133.124 - - [28/Dec/2023 04:57:45] "GET / HTTP/1.1" 200 -
+167.248.133.124 - - [28/Dec/2023 04:57:46] code 505, message Invalid HTTP version (2.0)
+167.248.133.124 - - [28/Dec/2023 04:57:46] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.124 - - [28/Dec/2023 04:57:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+205.210.31.128 - - [28/Dec/2023 05:56:39] "GET / HTTP/1.1" 200 -
+167.248.133.35 - - [28/Dec/2023 06:21:06] "GET / HTTP/1.1" 200 -
+167.248.133.35 - - [28/Dec/2023 06:21:11] "GET / HTTP/1.1" 200 -
+167.248.133.35 - - [28/Dec/2023 06:21:12] code 505, message Invalid HTTP version (2.0)
+167.248.133.35 - - [28/Dec/2023 06:21:12] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.35 - - [28/Dec/2023 06:21:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+174.138.90.44 - - [28/Dec/2023 06:58:54] "GET / HTTP/1.1" 200 -
+209.97.140.21 - - [28/Dec/2023 07:34:10] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ú\x18(ö¯\x7f«q\x96g\x89®')
+209.97.140.21 - - [28/Dec/2023 07:34:10] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ú\x18(ö¯\x7f«q\x96g\x89®[0m" HTTPStatus.BAD_REQUEST -
+209.97.140.21 - - [28/Dec/2023 07:34:10] code 400, message Bad request version ('À\x14À')
+209.97.140.21 - - [28/Dec/2023 07:34:10] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Û,Õá\x1dlÚh5ÖþÙ\x072ð²\x1c\x83,å\x0eÉàÈGÈ3^\x92L3Ï\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+209.97.140.21 - - [28/Dec/2023 07:34:11] "GET / HTTP/1.1" 200 -
+209.97.140.21 - - [28/Dec/2023 07:34:11] code 400, message Bad request version ('À\x14À')
+209.97.140.21 - - [28/Dec/2023 07:34:11] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÃPkMo\x94L¹cþAË\x7f\x9eê\x85CÞR\x7fÔíÒ[\x8f\x85±\x0eÉ`\x04ö\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+205.210.31.129 - - [28/Dec/2023 09:08:12] "GET / HTTP/1.1" 200 -
+64.62.197.171 - - [28/Dec/2023 12:11:29] "GET / HTTP/1.1" 200 -
+64.62.197.175 - - [28/Dec/2023 12:11:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.197.173 - - [28/Dec/2023 12:11:51] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+64.62.197.179 - - [28/Dec/2023 12:11:55] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+134.209.15.160 - - [28/Dec/2023 13:53:09] code 400, message Bad request version ('À\x14À')
+134.209.15.160 - - [28/Dec/2023 13:53:09] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¨+\x10åá²\x1e4Íe\x7fÝK8ã0,Éðäý\x8aU&\x0bÆ\x87%Pj\x84¥\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+134.209.15.160 - - [28/Dec/2023 13:53:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03õu¥=YP³\x93\x9bPÖP\x84EêËm:K\x92ÏxÖAÔZñ\x9d£ßu,\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+134.209.15.160 - - [28/Dec/2023 13:53:09] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03õu¥=YP³\x93\x9bPÖP\x84EêËm:K\x92ÏxÖAÔZñ\x9d£ßu,\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+134.209.15.160 - - [28/Dec/2023 13:53:09] "GET / HTTP/1.1" 200 -
+134.209.15.160 - - [28/Dec/2023 13:53:10] code 400, message Bad request version ('À\x14À')
+134.209.15.160 - - [28/Dec/2023 13:53:10] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x89+¥\x18/\x9a¢©\x1eÅ×Ø\x93ik\x16ÒjR¾3nTÁn$\x11\x07Ê±\x95Ñ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+104.131.144.23 - - [28/Dec/2023 14:00:23] code 400, message Bad request version ('À\x14À')
+104.131.144.23 - - [28/Dec/2023 14:00:23] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÓG\x1dÝgdù<Ý\x15xb³OÇ<\x95'J@r\x8a¶%&à-$à\x94Rî\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+183.136.225.9 - - [28/Dec/2023 17:39:34] code 400, message Bad request version ('F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+183.136.225.9 - - [28/Dec/2023 17:39:34] "[35m[1m\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+165.154.118.198 - - [28/Dec/2023 21:25:40] "GET / HTTP/1.1" 200 -
+165.154.118.198 - - [28/Dec/2023 21:25:41] code 400, message Bad request version ('À\x13À')
+165.154.118.198 - - [28/Dec/2023 21:25:41] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03þ°¥ü?¼C.ïÞæÂàÔY4\x88£\x8dÿ<´Ë\x0fi¢\x1f%Zq*\x94 õ*ÔöõGÇÉ§KÏWðm£¬SÊs\x04s\x89&x\x85iT\x0bôê\x0fm\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+165.154.118.198 - - [28/Dec/2023 21:25:42] code 400, message Bad HTTP/0.9 request type ('t3')
+165.154.118.198 - - [28/Dec/2023 21:25:42] "[35m[1mt3 12.1.2[0m" HTTPStatus.BAD_REQUEST -
+167.94.145.51 - - [28/Dec/2023 22:46:17] "GET / HTTP/1.1" 200 -
+167.94.145.51 - - [28/Dec/2023 22:46:21] "GET / HTTP/1.1" 200 -
+167.94.145.51 - - [28/Dec/2023 22:46:22] code 505, message Invalid HTTP version (2.0)
+167.94.145.51 - - [28/Dec/2023 22:46:22] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.94.145.51 - - [28/Dec/2023 22:46:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.248.133.51 - - [28/Dec/2023 23:18:47] "GET / HTTP/1.1" 200 -
+167.248.133.51 - - [28/Dec/2023 23:18:50] "GET / HTTP/1.1" 200 -
+167.248.133.51 - - [28/Dec/2023 23:18:50] code 505, message Invalid HTTP version (2.0)
+167.248.133.51 - - [28/Dec/2023 23:18:50] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+167.248.133.51 - - [28/Dec/2023 23:18:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+205.210.31.134 - - [29/Dec/2023 00:22:30] "GET / HTTP/1.1" 200 -
+107.170.235.27 - - [29/Dec/2023 02:44:36] code 400, message Bad request syntax ('MGLNDD_3.144.97.154_8000')
+107.170.235.27 - - [29/Dec/2023 02:44:36] "[35m[1mMGLNDD_3.144.97.154_8000[0m" HTTPStatus.BAD_REQUEST -
+162.243.131.24 - - [29/Dec/2023 03:30:28] "GET / HTTP/1.1" 200 -
+198.235.24.114 - - [29/Dec/2023 03:54:52] "GET / HTTP/1.1" 200 -
+212.70.149.146 - - [29/Dec/2023 08:46:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+212.70.149.146 - - [29/Dec/2023 08:46:02] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+162.216.149.55 - - [29/Dec/2023 08:46:09] code 400, message Bad request version ('À\x13À')
+162.216.149.55 - - [29/Dec/2023 08:46:09] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03}Î¼\x1etH\x9a_%uðá\x85z:#qÏ:\x84È_"bù2Ù)¦Zsò 5\x1bÂán}Èv\x0e¨ý5<8\x0b:\x93Ð\x7fNmM)Bú\x16\x88äÖr\x97ñ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" HTTPStatus.BAD_REQUEST -
+162.216.149.55 - - [29/Dec/2023 08:46:09] code 400, message Bad request version ('À(À$À\x14À')
+162.216.149.55 - - [29/Dec/2023 08:46:09] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03µ(=b\x88>;ùø\x8fè75l\x13gÜRäê<\x1d\x8e{\x90\x9c\x91Æch%\x7f\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+162.216.149.119 - - [29/Dec/2023 08:49:00] code 400, message Bad request version ('®p+\x80\x8a\x9cã\x92')
+162.216.149.119 - - [29/Dec/2023 08:49:00] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03Ü('\x03Ið¿Á²±aw #{[ú\x1c µ\x9cf&6\x8d¨ÍlK\x9dx> \x19(Ö5\x87NV6 Å9#\x9f=â\x0b®p+\x80\x8a\x9cã\x92[0m" HTTPStatus.BAD_REQUEST -
+162.216.149.119 - - [29/Dec/2023 08:49:00] code 400, message Bad request version ('À(À$À\x14À')
+162.216.149.119 - - [29/Dec/2023 08:49:00] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03<,÷FÄÖxéK¢4ïó³\x02K\x94ßc\x97vH'\x1cpÎJ\x90±úñß\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+170.64.130.197 - - [29/Dec/2023 09:07:34] "[33mGET /aaa9 HTTP/1.1[0m" 404 -
+170.64.130.197 - - [29/Dec/2023 09:07:35] "[33mGET /aab8 HTTP/1.1[0m" 404 -
+170.64.130.197 - - [29/Dec/2023 09:07:35] "GET / HTTP/1.1" 200 -
+185.167.96.150 - - [29/Dec/2023 09:29:00] code 400, message Bad request version ('À\x14À')
+185.167.96.150 - - [29/Dec/2023 09:29:00] "[35m[1m\x16\x03\x01\x00u\x01\x00\x00q\x03\x03\x80\x1c\x80\x97\x87\x92÷4\x1fø¬øl+­ªvÕà¯Î\x0d\x96d­\x8c/lN°ñÜ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+162.142.125.215 - - [29/Dec/2023 10:25:17] "GET / HTTP/1.1" 200 -
+162.142.125.215 - - [29/Dec/2023 10:25:21] "GET / HTTP/1.1" 200 -
+162.142.125.215 - - [29/Dec/2023 10:25:21] code 505, message Invalid HTTP version (2.0)
+162.142.125.215 - - [29/Dec/2023 10:25:21] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+162.142.125.215 - - [29/Dec/2023 10:25:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.197.198 - - [29/Dec/2023 13:39:10] "GET / HTTP/1.1" 200 -
+64.62.197.206 - - [29/Dec/2023 13:39:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.197.206 - - [29/Dec/2023 13:39:34] "GET http://api.ipify.org/?format=json HTTP/1.1" 200 -
+64.62.197.207 - - [29/Dec/2023 13:39:45] "[33mCONNECT www.shadowserver.org:443 HTTP/1.1[0m" 404 -
+174.138.40.208 - - [29/Dec/2023 13:46:27] code 400, message Bad request version ('À\x14À')
+174.138.40.208 - - [29/Dec/2023 13:46:27] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x8eu\x1el¢Ã\x12\x89\x04à\x89Ó_\\\x92×j[qÁ$®Â\x7f®Q6Ép\x1dzl\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+174.138.40.208 - - [29/Dec/2023 13:46:27] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03§\x14bèb\x90\x00Í1«\x97wtc»ð@\x06ÜÁlM\x06i"Í\x9b*îFwn\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+174.138.40.208 - - [29/Dec/2023 13:46:27] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03§\x14bèb\x90\x00Í1«\x97wtc»ð@\x06ÜÁlM\x06i"Í\x9b*îFwn\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+174.138.40.208 - - [29/Dec/2023 13:46:27] "GET / HTTP/1.1" 200 -
+174.138.40.208 - - [29/Dec/2023 13:46:27] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03WeÀnË±\x0f\x81\x00C¦Sz®zÑCár¹DqáÉ1`u|Ã÷)l\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+174.138.40.208 - - [29/Dec/2023 13:46:27] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03WeÀnË±\x0f\x81\x00C¦Sz®zÑCár¹DqáÉ1`u|Ã÷)l\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+167.99.34.137 - - [29/Dec/2023 16:58:00] "GET / HTTP/1.1" 200 -
