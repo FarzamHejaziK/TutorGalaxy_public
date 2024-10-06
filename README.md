@@ -18,4 +18,12 @@ To understand the user's expectations, the system starts a conversation to extra
 - The character or personality of the tutor.
 
 
+# Ongoing Tutor-User Interaction Module
+
+Based on the features extracted in the initialization module, we can now generate a clear system prompt for the tutor. The tutor then starts by understanding the user's preferred teaching style. If the user requests a planned teaching approach, the tutor creates a session plan, edits it based on user feedback, and teaches according to the plan.
+
+The main challenge here is **maintaining focus on the plan, as the user may ask numerous questions during each step. This makes it increasingly difficult for the tutor to stick to the original plan as the conversation becomes lengthy and complex.**
+
+
+
 
