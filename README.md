@@ -9,4 +9,13 @@ Tutor Galaxy is a personal tutoring service, and its key differentiator from **C
 The following is the block diagram of the Tutor Galaxy service.
 <img width="1972" alt="Screenshot 2024-10-06 at 12 33 36 PM" src="https://github.com/user-attachments/assets/bdd3311d-4f1f-4f4f-b397-146dbca5be39">
 
+# Tutor Initialization Module
+
+To understand the user's expectations, the system starts a conversation to extract the main features the tutor should have from the user's point of view. The primary features the system aims to extract are:
+
+- The topic that the tutor should discuss with the user.
+- Whether the tutor should only answer questions or also plan and teach the course to the user.
+- The character or personality of the tutor.
+
+
 
