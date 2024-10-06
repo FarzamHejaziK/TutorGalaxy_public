@@ -24,6 +24,10 @@ Based on the features extracted in the initialization module, we can now generat
 
 The main challenge here is **maintaining focus on the plan, as the user may ask numerous questions during each step. This makes it increasingly difficult for the tutor to stick to the original plan as the conversation becomes lengthy and complex.**
 
+# Long-term Learning and sticking to the plan 
+
+
+
 
 
 
