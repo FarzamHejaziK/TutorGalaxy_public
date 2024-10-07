@@ -7,7 +7,8 @@ Tutor Galaxy is a personal tutoring service, and its key differentiator from **C
 
 # How tutor galaxy works?
 Tutor Galaxy has two conversational agents. The first agent is the Tutor Initialization Agent, which sets up the tutoring process. After that, the Tutor Agent takes over and creates a personalized tutoring session for the user. The following is the block diagram of the Tutor Galaxy service.
-<img width="53" alt="image" src="https://github.com/user-attachments/assets/b612f195-ed18-43c8-b340-c7f74dc334b7">
+<img width="1877" alt="image" src="https://github.com/user-attachments/assets/3eba770d-72d5-4e72-8201-2fda8d321044">
+
 
 
 
@@ -31,7 +32,8 @@ The **Plan Executor Agent** is responsible for following the developed plan, ans
 
 The main challenge here is **maintaining focus on the plan, as the user may ask numerous questions during each step. This makes it increasingly difficult for the tutor to stick to the original plan as the conversation becomes lengthy and complex.**
 
-<img width="53" alt="image" src="https://github.com/user-attachments/assets/6945158a-ddb3-41cc-87b5-f35ec4135e79">
+<img width="990" alt="image" src="https://github.com/user-attachments/assets/7cd4d7e9-e06a-4e21-a393-2cf153853f06">
+
 
 
 
