@@ -54,6 +54,17 @@ Once the next action is predicted, the **"Update System Prompt"** module updates
 <img width="1599" alt="image" src="https://github.com/user-attachments/assets/b78afbb4-5943-4cf3-b9e5-00cd5e99db6e">
 
 
+# Additional Info and Features
+
+Several additional features have been implemented:
+
+1. Recurring payments using Stripe API for user subscriptions.
+2. Text-to-speech functionality using Google APIs.
+3. Code execution capability for courses where the user requests to learn a programming language.
+
+
+
+
 
 
 
