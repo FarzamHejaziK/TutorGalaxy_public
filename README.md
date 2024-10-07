@@ -19,10 +19,13 @@ To understand the user's expectations, the agent starts a conversation to extrac
 - The character or personality of the tutor.
 
 
-
 # Ongoing Tutor-User Interaction Agent
 
-Based on the features extracted in the initialization module, we can now generate a clear system prompt for the tutor. The tutor then starts by understanding the user's preferred teaching style. If the user requests a planned teaching approach, the tutor creates a session plan, edits it based on user feedback, and teaches according to the plan.
+The Tutor Agent consists of two main sub-agents: the **Planner Agent** and the **Plan Executor Agent**. Based on the features extracted in the initialization phase, the **Planner Agent** starts by understanding the user's preferred learning style and then creates a customized session plan. The Planner Agent continues the tutoring session until the session planning is done and ready to be handed off to the **Plan Executor Agent**.
+
+The **Plan Checker** verifies whether the Planner Agent has completed the session plan and whether the user has approved it before handing off to the Plan Executor Agent. This ensures the tutoring process is aligned with the user's goals and expectations before moving forward.
+
+The **Plan Executor Agent** is responsible for following the developed plan, answering user questions, and maintaining alignment with the session goals.
 
 The main challenge here is **maintaining focus on the plan, as the user may ask numerous questions during each step. This makes it increasingly difficult for the tutor to stick to the original plan as the conversation becomes lengthy and complex.**
 
