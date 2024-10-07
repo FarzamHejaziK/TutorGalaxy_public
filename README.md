@@ -10,13 +10,14 @@ Tutor Galaxy has two conversational agents. The first agent is the Tutor Initial
 <img width="1862" alt="image" src="https://github.com/user-attachments/assets/28d0b6cb-e17b-4aee-aa79-c18277ca0c20">
 
 
-# Tutor Initialization Module
+# Tutor Initialization Agent
 
-To understand the user's expectations, the system starts a conversation to extract the main features the tutor should have from the user's point of view. The primary features the system aims to extract are:
+To understand the user's expectations, the agent starts a conversation to extract the main features the tutor should have from the user's point of view. The primary features the system aims to extract are:
 
 - The topic that the tutor should discuss with the user.
 - Whether the tutor should only answer questions or also plan and teach the course to the user.
 - The character or personality of the tutor.
+
 
 
 # Ongoing Tutor-User Interaction Module
