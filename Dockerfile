@@ -14,5 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Run gunicorn with 5 workers when the container launchesCMD ["gunicorn", "-w", "5", "-b", "0.0.0.0:80", "JasonEPwithUser:app"]
-CMD ["gunicorn", "-w", "5", "--timeout", "300", "-b", "0.0.0.0:80", "New_for_test_JasonEPwithUser:app"]
+CMD ["gunicorn", "-w", "5", "--timeout", "300", "-b", "0.0.0.0:80", "wsgi:app"]
 
