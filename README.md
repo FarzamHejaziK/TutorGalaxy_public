@@ -2,12 +2,24 @@
 
 This repository hosts the code for the **TutorGalaxy** service, originally designed as a backend for [TutorGalaxy.com](https://tutor-galaxy.com). Over time, I will refine and organize the code and the README to make it more user-friendly and adaptable as a package for broader use.
 
+## Table of Contents
+- [Disclaimer](#disclaimer)
+- [What is Tutor Galaxy?](#what-is-tutor-galaxy)
+- [How Tutor Galaxy Works](#how-tutor-galaxy-works)
+- [Tutor Initialization Agent](#tutor-initialization-agent)
+- [Ongoing Tutor-User Interaction Agent](#ongoing-tutor-user-interaction-agent)
+- [Long-Term Learning and Sticking to the Plan](#long-term-learning-and-sticking-to-the-plan)
+- [Additional Info and Features](#additional-info-and-features)
+
+
 # What is tutor galaxy?
 Tutor Galaxy is a personal tutoring service, and its key differentiator from **ChatGPT** is its ability to create and stick to a long-term learning plan for the user. Unlike ChatGPT, which is more focused on short-term interactions, Tutor Galaxy is designed to stay committed to the user's learning plan over time. It has been observed that ChatGPT, even when attempting to plan for a user, tends to deviate from the plan as the conversation progresses. In the following section, we will dive deeper into how Tutor Galaxy addresses the challenge of maintaining commitment to long-term plans. 
 
 # How tutor galaxy works?
 Tutor Galaxy has two conversational agents. The first agent is the Tutor Initialization Agent, which sets up the tutoring process. After that, the Tutor Agent takes over and creates a personalized tutoring session for the user. The following is the block diagram of the Tutor Galaxy service.
-<img width="1881" alt="image" src="https://github.com/user-attachments/assets/e03e860e-4a5c-499c-baf2-906a58160fa7">
+<img width="1877" alt="image" src="https://github.com/user-attachments/assets/3eba770d-72d5-4e72-8201-2fda8d321044">
+
+
 
 
 
@@ -30,7 +42,9 @@ The **Plan Executor Agent** is responsible for following the developed plan, ans
 
 The main challenge here is **maintaining focus on the plan, as the user may ask numerous questions during each step. This makes it increasingly difficult for the tutor to stick to the original plan as the conversation becomes lengthy and complex.**
 
-<img width="992" alt="image" src="https://github.com/user-attachments/assets/0d1ec415-615c-424b-82e3-be57957fc420">
+<img width="990" alt="image" src="https://github.com/user-attachments/assets/7cd4d7e9-e06a-4e21-a393-2cf153853f06">
+
+
 
 
 
@@ -48,6 +62,17 @@ The first module in the agent is the **"Next Action Predictor"**, which determin
 Once the next action is predicted, the **"Update System Prompt"** module updates the system prompt, and the system responds to the user in alignment with the suggested action. After the system message is generated, the **"Plan Progress Tracker Module"** checks the conversation and updates the plan pointer accordingly.
 
 <img width="1599" alt="image" src="https://github.com/user-attachments/assets/b78afbb4-5943-4cf3-b9e5-00cd5e99db6e">
+
+
+# Additional Info and Features
+
+Several additional features have been implemented:
+
+1. Recurring payments using Stripe API for user subscriptions.
+2. Text-to-speech functionality using Google APIs.
+3. Code execution capability for courses where the user requests to learn a programming language.
+
+
 
 
 
