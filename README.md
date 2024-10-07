@@ -6,8 +6,9 @@ This repository hosts the code for the **TutorGalaxy** service, originally desig
 Tutor Galaxy is a personal tutoring service, and its key differentiator from **ChatGPT** is its ability to create and stick to a long-term learning plan for the user. Unlike ChatGPT, which is more focused on short-term interactions, Tutor Galaxy is designed to stay committed to the user's learning plan over time. It has been observed that ChatGPT, even when attempting to plan for a user, tends to deviate from the plan as the conversation progresses. In the following section, we will dive deeper into how Tutor Galaxy addresses the challenge of maintaining commitment to long-term plans. 
 
 # How tutor galaxy works?
-The following is the block diagram of the Tutor Galaxy service.
-<img width="1972" alt="Screenshot 2024-10-06 at 12 33 36 PM" src="https://github.com/user-attachments/assets/bdd3311d-4f1f-4f4f-b397-146dbca5be39">
+Tutor Galaxy has two conversational agents. The first agent is the Tutor Initialization Agent, which sets up the tutoring process. After that, the Tutor Agent takes over and creates a personalized tutoring session for the user. The following is the block diagram of the Tutor Galaxy service.
+<img width="1862" alt="image" src="https://github.com/user-attachments/assets/28d0b6cb-e17b-4aee-aa79-c18277ca0c20">
+
 
 # Tutor Initialization Module
 
