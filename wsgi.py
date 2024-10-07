@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, request, jsonify, stream_with_context
 from flask_dance.contrib.google import make_google_blueprint, google
-from conv_handler.Conv_handler_improved_mem import TeachingAssistant_stream
+
 from flask_login import UserMixin, LoginManager, logout_user, login_user, login_required, current_user
 from auth2 import auth, max_topic_messages_WO_sub, max_topic_topics_WO_sub #, blueprint
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token, get_jwt_identity
@@ -8,7 +8,7 @@ import os
 from flask import render_template, make_response, stream_with_context, Response
 from dotenv import load_dotenv
 import time
-from conv_creator.Conv_Creator_basics import ConvCreator_stream
+from init_agent.Conv_Creator_basics import ConvCreator_stream
 from config import *
 from flask_cors import CORS
 from datetime import timedelta
@@ -22,10 +22,7 @@ from text_to_speech.TTS import TTS_blueprint
 import random
 import sys
 from boto3.dynamodb.types import TypeDeserializer
-
-
-
-
+from tutor_agent.Conv_handler_improved_mem import TeachingAssistant_stream
 
 # Load environment variables from .env file
 load_dotenv()
