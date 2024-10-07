@@ -20,7 +20,7 @@ To understand the user's expectations, the agent starts a conversation to extrac
 
 
 
-# Ongoing Tutor-User Interaction Module
+# Ongoing Tutor-User Interaction Agent
 
 Based on the features extracted in the initialization module, we can now generate a clear system prompt for the tutor. The tutor then starts by understanding the user's preferred teaching style. If the user requests a planned teaching approach, the tutor creates a session plan, edits it based on user feedback, and teaches according to the plan.
 
