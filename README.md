@@ -32,7 +32,19 @@ The main challenge here is **maintaining focus on the plan, as the user may ask 
 <img width="1122" alt="image" src="https://github.com/user-attachments/assets/643166fb-0f6e-44aa-bf7b-795f7072c0c8">
 
 
-# Long-term Learning and sticking to the plan 
+# Long-Term Learning and Sticking to the Plan
+
+The main objective of the Plan Executor Agent is to ensure that the tutor stays committed to the long-term learning plan and prevents deviation during the ongoing conversation with the user. It is important to note that the plan has already been extracted by the Plan Checker and is assumed to be fixed. The inputs to the agent include the conversation history, the learning plan, the plan pointer, and the latest user message. The plan pointer indicates the specific topic within the plan that the current conversation is addressing.
+
+The first module in the agent is the **"Next Action Predictor"**, which determines the next best action among the following options:
+1. Start a new topic.
+2. Continue with the current topic.
+3. Answer a user question.
+4. Continue answering an ongoing user question.
+
+Once the next action is predicted, the **"Update System Prompt"** module updates the system prompt, and the system responds to the user in alignment with the suggested action. After the system message is generated, the **"Plan Progress Tracker Module"** checks the conversation and updates the plan pointer accordingly.
+
+
 
 
 
