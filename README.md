@@ -36,8 +36,6 @@ The main challenge here is **maintaining focus on the plan, as the user may ask 
 
 # Long-Term Learning and Sticking to the Plan
 
-<img width="1599" alt="image" src="https://github.com/user-attachments/assets/0b58fe9a-b989-4fda-ba8c-f939be56e353">
-
 
 The main objective of the Plan Executor Agent is to ensure that the tutor stays committed to the long-term learning plan and prevents deviation during the ongoing conversation with the user. It is important to note that the plan has already been extracted by the Plan Checker and is assumed to be fixed. The inputs to the agent include the conversation history, the learning plan, the plan pointer, and the latest user message. The plan pointer indicates the specific topic within the plan that the current conversation is addressing.
 
