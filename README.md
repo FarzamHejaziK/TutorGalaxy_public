@@ -7,7 +7,8 @@ Tutor Galaxy is a personal tutoring service, and its key differentiator from **C
 
 # How tutor galaxy works?
 Tutor Galaxy has two conversational agents. The first agent is the Tutor Initialization Agent, which sets up the tutoring process. After that, the Tutor Agent takes over and creates a personalized tutoring session for the user. The following is the block diagram of the Tutor Galaxy service.
-<img width="1862" alt="image" src="https://github.com/user-attachments/assets/28d0b6cb-e17b-4aee-aa79-c18277ca0c20">
+<img width="1881" alt="image" src="https://github.com/user-attachments/assets/e03e860e-4a5c-499c-baf2-906a58160fa7">
+
 
 
 # Tutor Initialization Agent
@@ -29,10 +30,14 @@ The **Plan Executor Agent** is responsible for following the developed plan, ans
 
 The main challenge here is **maintaining focus on the plan, as the user may ask numerous questions during each step. This makes it increasingly difficult for the tutor to stick to the original plan as the conversation becomes lengthy and complex.**
 
-<img width="1122" alt="image" src="https://github.com/user-attachments/assets/643166fb-0f6e-44aa-bf7b-795f7072c0c8">
+<img width="992" alt="image" src="https://github.com/user-attachments/assets/0d1ec415-615c-424b-82e3-be57957fc420">
+
 
 
 # Long-Term Learning and Sticking to the Plan
+
+<img width="1599" alt="image" src="https://github.com/user-attachments/assets/0b58fe9a-b989-4fda-ba8c-f939be56e353">
+
 
 The main objective of the Plan Executor Agent is to ensure that the tutor stays committed to the long-term learning plan and prevents deviation during the ongoing conversation with the user. It is important to note that the plan has already been extracted by the Plan Checker and is assumed to be fixed. The inputs to the agent include the conversation history, the learning plan, the plan pointer, and the latest user message. The plan pointer indicates the specific topic within the plan that the current conversation is addressing.
 
@@ -44,8 +49,7 @@ The first module in the agent is the **"Next Action Predictor"**, which determin
 
 Once the next action is predicted, the **"Update System Prompt"** module updates the system prompt, and the system responds to the user in alignment with the suggested action. After the system message is generated, the **"Plan Progress Tracker Module"** checks the conversation and updates the plan pointer accordingly.
 
-
-
+<img width="1599" alt="image" src="https://github.com/user-attachments/assets/b78afbb4-5943-4cf3-b9e5-00cd5e99db6e">
 
 
 
