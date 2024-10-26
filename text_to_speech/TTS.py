@@ -43,7 +43,6 @@ def clean_text(text):
 
 
 @TTS_blueprint.route('/v1/TTS', methods=['POST'])
-@jwt_required()
 def synthesize_speech():
     text = clean_text(remove_prefix(request.json.get('text', ''))) 
     current_user_email = get_jwt_identity()
