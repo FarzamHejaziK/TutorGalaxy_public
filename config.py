@@ -22,5 +22,5 @@ message_per_page = 10
 
 # API_KEYS
 load_dotenv()
-API_KEYS = os.getenv("API_KEYS").split(',')
-MODE = os.getenv("MODE")   
+API_KEYS = os.getenv("OPENAI_API_KEYS").split(',')
+MODE = "test" 
