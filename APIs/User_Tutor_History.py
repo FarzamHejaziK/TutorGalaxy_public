@@ -59,7 +59,6 @@ def get_deserialized_topics_for_batches(dynamodb_client, table_name, all_topic_k
 
 
 @tutor_history_blueprint.route('/api/v1/user_profile', methods=['GET'])
-@jwt_required()
 def get_user_profile():
     current_user_email = get_jwt_identity()
     response = user_table.get_item(Key={'email': current_user_email})

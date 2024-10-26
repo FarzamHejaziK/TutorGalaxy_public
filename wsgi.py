@@ -124,7 +124,6 @@ def buddy_details():
 
 
 @app.route('/api/v1/Conv_first_massage', methods=['POST'])
-@jwt_required()
 def Conv_first_massage():
     current_user_email = get_jwt_identity()
     response = user_table.get_item(Key={'email': current_user_email})
@@ -240,7 +239,6 @@ def get_user_profile_v2():
 
 
 @app.route('/api/v1/change_mode', methods=['POST'])
-@jwt_required()
 def change_user_mode():
     try:
         current_user_email = get_jwt_identity()
@@ -264,7 +262,6 @@ def change_user_mode():
 
     
 @app.route('/api/v1/code_excecution', methods=['POST'])
-@jwt_required()
 def code_excecution():
     current_user_email = get_jwt_identity()
     response = user_table.get_item(Key={'email': current_user_email})
@@ -310,7 +307,6 @@ def code_excecution():
 
 
 @app.route('/api/v1/text_editor', methods=['POST'])
-@jwt_required()
 def text_editor():
     current_user_email = get_jwt_identity()
     response = user_table.get_item(Key={'email': current_user_email})

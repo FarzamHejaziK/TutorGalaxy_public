@@ -170,7 +170,6 @@ def get_created_topic_public():
 
 
 @public_blueprint.route('/api/v1/assign_topic_to_user', methods=['POST'])
-@jwt_required()
 def get_created_topic():
     current_user_email = get_jwt_identity()
     public_user_email = 'user@public.com'

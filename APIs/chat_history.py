@@ -55,7 +55,6 @@ def get_deserialized_message_for_batches(dynamodb_client, table_name, all_messag
     return ordered_deserialized_messages
 
 @chat_history_blueprint.route('/api/v1/chat_history', methods=['POST'])
-@jwt_required()
 def get_chat_history():
     current_user_email = get_jwt_identity()
     data = request.get_json()
